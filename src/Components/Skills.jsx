@@ -58,7 +58,8 @@ const Skills = () => {
   
 
   return (
-    <section className="w-full h-screen flex items-center justify-center overflow-hidden relative">
+    <section className="w-full h-screen flex items-center justify-center overflow-auto relative">
+        <h1 className="font-bold text-3xl md:text-4xl lg:text-6xl leading-relaxed">Skills</h1>
 
    
     <div >

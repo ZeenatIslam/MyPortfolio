@@ -9,6 +9,7 @@ import Project from './Components/Project'
 import Skills from './Components/Skills'
 import BackgroundWave from './Components/Backgroundewave'
 import FloatingBall from './Components/FloatingBall'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -19,7 +20,7 @@ function App() {
     <BackgroundWave/>
     <Hero/>
     <FloatingBall/>
-    
+   
     <Skills/>
     <Project/>
     
