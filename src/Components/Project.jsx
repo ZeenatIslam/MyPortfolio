@@ -30,10 +30,10 @@ const Project = () => {
     <section id='project' className=' text-amber-50 py-20 text-center  '>
     <h1 className="font-bold text-3xl md:text-4xl lg:text-6xl leading-relaxed">Project work</h1>
 
-      <div className="mt-6 flex lg:flex-row flex-col justify-center gap-4 m-6 p-4 ">
+      <div className="mt-6 flex lg:flex-row flex-col  justify-center gap-4 m-6 p-4 ">
         {projects.map((project) => (
           <div key={project.id} className="relative  text-center shadow-indigo-500 border-4 border-amber-50 p-4 rounded-2xl shadow-xl ">
-            <h3 className="">{project.title}</h3>
+            <h3 className="lg:text-2xl  md:text-xl sm:text-xl">{project.title}</h3>
             <p className="mt-2 text-amber-50">{project.description}</p>
           </div>
         ))}

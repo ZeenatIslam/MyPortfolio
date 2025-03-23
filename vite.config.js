@@ -7,6 +7,10 @@ export default defineConfig({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontfamily:{
+        custom:'Bodoni Moda',
+        custom2:'Lavishly Yours',
+      },
      
       
         keyframes: {
