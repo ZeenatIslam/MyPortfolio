@@ -1,23 +1,18 @@
 import React from 'react'
-import { section } from 'framer-motion/client';
+
 const Contact = () => {
 
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
-
+  
   return (
     <section id="contact" className="py-20 text-amber-50 text-center h-screen flex flex-col justify-center items-center">
-      <motion.div
-        ref={ref}
-        initial={{ opacity: 0, y: 30 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 1, ease: "easeOut" }}
+      
+      <h1 className="font-bold text-3xl md:text-4xl lg:text-7xl leading-relaxed mb-4"
 
-        className="font-bold text-3xl md:text-4xl lg:text-7xl leading-relaxed mb-4"
-      >
+>
+          Want to get in Touch?
+          
 
-        Want to get in Touch?
-      </motion.div>
-
+        </h1>
 
       <div className="relative flex flex-col md:flex-row items-center justify-center p-6 m-6 w-full max-w-5xl gap-6">
 

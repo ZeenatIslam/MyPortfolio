@@ -4,7 +4,7 @@ import { section } from 'framer-motion/client';
 import FloatingBall from './FloatingBall'
 const Project = () => {
 
-  
+
 
   const projects = [
     {
@@ -28,23 +28,17 @@ const Project = () => {
     }
   ]
 
-  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
-
+  
   return (
     <>
       <section id='project' className=' text-amber-50 py-20 text-center  '>
-        <motion.div
-          ref={ref}
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 1, ease: "easeOut" }}
 
-          className="font-bold text-3xl md:text-4xl lg:text-7xl leading-relaxed mb-4"
+        <h1 className="font-bold text-3xl md:text-4xl lg:text-7xl leading-relaxed mb-4"
+
         >
-
           Project work
-        </motion.div>
 
+        </h1>
 
 
         <div className="mt-6 flex lg:flex-row flex-col  justify-center gap-4 m-6 p-4 ">
