@@ -6,24 +6,20 @@ import 'swiper/css/pagination';
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import { section } from 'framer-motion/client';
+
 const Experience = () => {
 
-    const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
 
     return (
         <section id='experience' className="py-20 text-amber-50 text-center h-screen flex flex-col justify-center items-center">
-            <motion.div
-                ref={ref}
-                initial={{ opacity: 0, y: 30 }}
-                animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 1, ease: "easeOut" }}
 
-                className="font-bold text-3xl md:text-4xl lg:text-7xl leading-relaxed mb-4"
+            <h1 className="font-bold text-3xl md:text-4xl lg:text-7xl leading-relaxed mb-4"
+
             >
-
                 Experience
-            </motion.div>
+
+
+            </h1>
 
 
 
