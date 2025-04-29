@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 const Hero = () => {
   return (
-    <section className='h-screen flex flex-col justify-center items-center text-white text-center '>
+    <section className='h-screen flex flex-col justify-center items-center text-amber-50 text-center '>
       <motion.img
       initial={{scale:1.1 ,opacity:0}}
       animate={{scale:1,opacity:1}}
@@ -14,7 +14,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          className="text-white font-bold text-left "
+          className=" font-bold text-left "
         >
           <h1 className='name text-[8vw] font-bold' >
 

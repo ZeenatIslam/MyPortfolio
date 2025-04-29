@@ -13,10 +13,10 @@ const Navbar = () => {
 
           {/* Normal Menu (Visible on Large Screens) */}
           <ul className="hidden lg:flex space-x-6">
-            <li><a href="#skills" className="hover:text-amber-400">Skills</a></li>
-            <li><a href="#project" className="hover:text-amber-400">Project</a></li>
-            <li><a href="#experience" className="hover:text-amber-400">Experience</a></li>
-            <li><a href="#contact" className="hover:text-amber-400">Contact</a></li>
+            <li><a href="#skills" className="hover:text-white">Skills</a></li>
+            <li><a href="#project" className="hover:text-white">Project</a></li>
+            <li><a href="#experience" className="hover:text-white">Experience</a></li>
+            <li><a href="#contact" className="hover:text-white">Contact</a></li>
           </ul>
 
           {/* Mobile Menu Button (Visible on Small Screens) */}
@@ -34,10 +34,10 @@ const Navbar = () => {
           </button>
           <h2 className="text-xl font-bold mb-6">Menu</h2>
           <ul className="space-y-4">
-            <li><a href="#skills" className="block hover:text-amber-400" onClick={() => setIsOpen(false)}>Skills</a></li>
-            <li><a href="#project" className="block hover:text-amber-400" onClick={() => setIsOpen(false)}>Project</a></li>
-            <li><a href="#experience" className="block hover:text-amber-400" onClick={() => setIsOpen(false)}>Experience</a></li>
-            <li><a href="#contact" className="block hover:text-amber-400" onClick={() => setIsOpen(false)}>Contact</a></li>
+            <li><a href="#skills" className="block hover:text-white" onClick={() => setIsOpen(false)}>Skills</a></li>
+            <li><a href="#project" className="block hover:text-white" onClick={() => setIsOpen(false)}>Project</a></li>
+            <li><a href="#experience" className="block hover:text-white" onClick={() => setIsOpen(false)}>Experience</a></li>
+            <li><a href="#contact" className="block hover:text-white" onClick={() => setIsOpen(false)}>Contact</a></li>
           </ul>
         </div>
       </div>
