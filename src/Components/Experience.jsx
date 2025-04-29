@@ -50,6 +50,18 @@ const Experience = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
+                    <img src="IMG_9098.JPG" alt="Slide 3" className="w-full h-auto rounded-lg" />
+                    <div className="absolute bottom-4 left-4 right-4 bg-black/30  text-white text-lg p-2 rounded-md">
+                        International Generative A.I Workshop at Indian Institute of Information & Technology Allahabad,India
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src="IMG_9002.JPG" alt="Slide 3" className="w-full h-auto rounded-lg" />
+                    <div className="absolute bottom-4 left-4 right-4 bg-black/30  text-white text-lg p-2 rounded-md">
+                        International Generative A.I Workshop at Indian Institute of Information & Technology Allahabad,India
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
                     <img src="IMG_20250218_172946.jpg" alt="Slide 4" className="w-full h-auto rounded-lg" />
                     <div className="absolute bottom-4 left-4 right-4 bg-black/30  text-white text-lg p-2 rounded-md">
                         International Generative A.I Workshop at Indian Institute of Information & Technology Allahabad,India
