@@ -9,7 +9,7 @@ const Navbar = () => {
       {/* Navbar */}
       <nav className="bg-transparent text-amber-50 p-4 sm:p-2 w-full">
         <div className="container flex justify-between items-center">
-          <h1 className="lg:text-2xl md:text-xl font-bold ">My Portfolio</h1>
+          <h1 className="lg:text-2xl md:text-xl font-bold glow-hover transition duration-300  ">My Portfolio</h1>
 
           {/* Normal Menu (Visible on Large Screens) */}
           <ul className="hidden lg:flex space-x-6">
