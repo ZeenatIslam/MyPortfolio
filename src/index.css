@@ -13,7 +13,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.glow-hover:hover {
+  text-shadow: 0 0 5px #f7f6ed, 0 0 10px #fdf5f5, 0 0 20px #0ff;
+}
 body{
   font-family:"Bodoni Moda","Lavishly Yours" ;
   

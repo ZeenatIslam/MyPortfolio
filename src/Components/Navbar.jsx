@@ -9,14 +9,14 @@ const Navbar = () => {
       {/* Navbar */}
       <nav className="bg-transparent text-amber-50 p-4 sm:p-2 w-full">
         <div className="container flex justify-between items-center">
-          <h1 className="lg:text-2xl md:text-xl font-bold">My Portfolio</h1>
+          <h1 className="lg:text-2xl md:text-xl font-bold ">My Portfolio</h1>
 
           {/* Normal Menu (Visible on Large Screens) */}
           <ul className="hidden lg:flex space-x-6">
-            <li><a href="#skills" className="hover:text-white">Skills</a></li>
-            <li><a href="#project" className="hover:text-white">Project</a></li>
-            <li><a href="#experience" className="hover:text-white">Experience</a></li>
-            <li><a href="#contact" className="hover:text-white">Contact</a></li>
+            <li><a href="#skills" className="text-amber-50 glow-hover transition duration-300 ">Skills</a></li>
+            <li><a href="#project" className=" glow-hover transition duration-300">Project</a></li>
+            <li><a href="#experience" className=" glow-hover transition duration-300">Experience</a></li>
+            <li><a href="#contact" className=" glow-hover transition duration-300">Contact</a></li>
           </ul>
 
           {/* Mobile Menu Button (Visible on Small Screens) */}

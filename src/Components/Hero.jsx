@@ -16,7 +16,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className=" font-bold text-left "
         >
-          <h1 className='name text-[8vw] font-bold' >
+          <h1 className='name lg:text-9xl text-[20vw] font-bold glow-hover transition duration-300 ' >
 
          Zeenat Islam
           </h1>
