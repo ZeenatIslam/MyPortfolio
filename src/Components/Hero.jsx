@@ -16,11 +16,11 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className=" font-bold text-left "
         >
-          <h1 className='name lg:text-9xl text-[20vw] font-bold  ' >
+          <h1 className='name lg:text-9xl text-[20vw] font-bold text-center ' >
 
          Zeenat Islam
           </h1>
-          <h2 className='lg:text-4xl text-[10vw] name m-2 text-center'>Welcome to Zeenat’s official site</h2>
+          <h2 className='lg:text-4xl text-[5vw] name  text-center'>Welcome to Zeenat’s official site</h2>
         </motion.div>
 
     </section>
